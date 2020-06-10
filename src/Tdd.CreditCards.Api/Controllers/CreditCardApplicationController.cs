@@ -31,24 +31,17 @@ namespace Tdd.CreditCards.Api.Controllers
         [HttpPost]
         public IActionResult Add([FromBody] CreditCardApplicationModel creditCardInfo)
         {
-            try
+            var creditCardApplication = new CreditCardApplication
             {
-                var creditCardApplication = new CreditCardApplication
-                {
-                    FirstName = creditCardInfo.FirstName,
-                    LastName = creditCardInfo.LastName,
-                    Age = creditCardInfo.Age.Value,
-                    GrossAnnualIncome = creditCardInfo.GrossAnnualIncome.Value
-                };                
+                FirstName = creditCardInfo.FirstName,
+                LastName = creditCardInfo.LastName,
+                Age = creditCardInfo.Age.Value,
+                GrossAnnualIncome = creditCardInfo.GrossAnnualIncome.Value
+            };                
 
-                _applicationService.AddAsync(creditCardApplication).Wait();
+            _applicationService.AddAsync(creditCardApplication).Wait();
 
-                return Ok("Creditcard application created with success.");    
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }            
+            return Ok("Creditcard application created with success.");           
         }
     }
 }

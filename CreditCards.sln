@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9BF328E-BF61-4F4F-882D-35AC816BCA95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B5C43C9F-1462-4E4F-87DA-7CF57223E7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.CreditCards.Api", "src\Tdd.CreditCards.Api\Tdd.CreditCards.Api.csproj", "{B79398F7-2F25-48DB-8151-F67C8A66F386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.CreditCards.Business", "src\Tdd.CreditCards.Business\Tdd.CreditCards.Business.csproj", "{2E5D3B0A-D307-4348-95CA-077F3969A2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.CreditCards.Entities", "src\Tdd.CreditCards.Entities\Tdd.CreditCards.Entities.csproj", "{9B00B9A8-F498-44D5-B247-AF8F72640F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.CreditCards.Infra", "src\Tdd.CreditCards.infra\Tdd.CreditCards.Infra.csproj", "{31A48472-A8DD-492E-8A10-80398E291A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.CreditCards.Repository", "src\Tdd.CreditCards.Repository\Tdd.CreditCards.Repository.csproj", "{9F58DFE1-533B-42BB-B8C7-4B673138E926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdd.CreditCards.Tests", "tests\Tdd.CreditCards.Tests\Tdd.CreditCards.Tests.csproj", "{BE95617F-6ADA-41BF-8B08-BC2C6465368A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B79398F7-2F25-48DB-8151-F67C8A66F386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79398F7-2F25-48DB-8151-F67C8A66F386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79398F7-2F25-48DB-8151-F67C8A66F386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79398F7-2F25-48DB-8151-F67C8A66F386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5D3B0A-D307-4348-95CA-077F3969A2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5D3B0A-D307-4348-95CA-077F3969A2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5D3B0A-D307-4348-95CA-077F3969A2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5D3B0A-D307-4348-95CA-077F3969A2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B00B9A8-F498-44D5-B247-AF8F72640F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B00B9A8-F498-44D5-B247-AF8F72640F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B00B9A8-F498-44D5-B247-AF8F72640F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B00B9A8-F498-44D5-B247-AF8F72640F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A48472-A8DD-492E-8A10-80398E291A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A48472-A8DD-492E-8A10-80398E291A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A48472-A8DD-492E-8A10-80398E291A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A48472-A8DD-492E-8A10-80398E291A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F58DFE1-533B-42BB-B8C7-4B673138E926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F58DFE1-533B-42BB-B8C7-4B673138E926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F58DFE1-533B-42BB-B8C7-4B673138E926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F58DFE1-533B-42BB-B8C7-4B673138E926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE95617F-6ADA-41BF-8B08-BC2C6465368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE95617F-6ADA-41BF-8B08-BC2C6465368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE95617F-6ADA-41BF-8B08-BC2C6465368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE95617F-6ADA-41BF-8B08-BC2C6465368A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B79398F7-2F25-48DB-8151-F67C8A66F386} = {A9BF328E-BF61-4F4F-882D-35AC816BCA95}
+		{2E5D3B0A-D307-4348-95CA-077F3969A2E6} = {A9BF328E-BF61-4F4F-882D-35AC816BCA95}
+		{9B00B9A8-F498-44D5-B247-AF8F72640F72} = {A9BF328E-BF61-4F4F-882D-35AC816BCA95}
+		{31A48472-A8DD-492E-8A10-80398E291A4D} = {A9BF328E-BF61-4F4F-882D-35AC816BCA95}
+		{9F58DFE1-533B-42BB-B8C7-4B673138E926} = {A9BF328E-BF61-4F4F-882D-35AC816BCA95}
+		{BE95617F-6ADA-41BF-8B08-BC2C6465368A} = {B5C43C9F-1462-4E4F-87DA-7CF57223E7E2}
+	EndGlobalSection
+EndGlobal
